@@ -10,7 +10,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://interview-ai.vercel.app", // update this after Vercel deployment
+      "https://interview-ai-delta-topaz.vercel.app", // update this after Vercel deployment
     ],
     credentials: true,
   }),
